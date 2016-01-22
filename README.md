@@ -1,5 +1,6 @@
 # CYXCoreAnimationTest
 Core Animation Test
+[我的简书](http://www.jianshu.com/users/3f995dac0230/latest_articles)
 ###CABasicAnimation 基本动画
 - 动画的本质就是修改图层的某些属性
 - 核心动画,利用核心动画修改Layer某些属性
