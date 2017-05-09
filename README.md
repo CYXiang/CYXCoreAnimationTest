@@ -1,7 +1,7 @@
 # CYXCoreAnimationTest
 Core Animation Test
 [我的简书](http://www.jianshu.com/users/3f995dac0230/latest_articles)
-###CABasicAnimation 基本动画
+### CABasicAnimation 基本动画
 - 动画的本质就是修改图层的某些属性
 - 核心动画,利用核心动画修改Layer某些属性
 - 简介
@@ -34,7 +34,7 @@ Core Animation Test
     - 6.添加核心动画
     `[_reaView.layer addAnimation:anim forKey:nil];`
 
-###CAKeyframeAnimation——关键帧动画
+### CAKeyframeAnimation——关键帧动画
 - 简介
     - 关键帧动画，也是`CAPropertyAnimation`的子类，
     - 与`CABasicAnimation`的区别是：
@@ -66,7 +66,7 @@ Core Animation Test
     - 5.添加动画到图层（Layer）
     `[_imageView.layer addAnimation:anim forKey:nil];`
 
-###CAAnimationGroup——动画组
+### CAAnimationGroup——动画组
 - 简介
     - 动画组，是`CAAnimation`的子类，可以保存一组动画对象，`将CAAnimationGroup`对象加入层后，组中所有动画对象可以`同时并发运行`
 
@@ -74,7 +74,7 @@ Core Animation Test
     - `animations`：用来保存一组动画对象的NSArray
 默认情况下，一组动画对象是同时运行的，也可以通过设置动画对象的`beginTime`属性来更改动画的开始时间
 
-###CATransition——转场动画
+### CATransition——转场动画
 - 简介:
     - `CATransition`是`CAAnimation`的子类，用于做转场动画，能够为层提供移出屏幕和移入屏幕的动画效果。iOS比Mac OS X的转场动画效果少一点
 - `UINavigationController`就是通过`CATransition实现将控制器的视图推入(puch)屏幕的动画效果
@@ -110,10 +110,10 @@ Core Animation Test
     - 5.添加转场动画到图层
     `[_imageView.layer addAnimation:anim forKey:nil];`
 
-####转场动画过渡效果
+#### 转场动画过渡效果
 
 
-###CADisplayLink定时器
+### CADisplayLink定时器
 - `CADisplayLink`是一种以屏幕刷新频率触发的时钟机制，每秒钟执行大约60次左右，可以暂停`CADisplayLink`定时器
 - `CADisplayLink`是一个计时器，可以使绘图代码与视图的刷新频率保持同步，而`NSTimer`无法确保计时器实际被触发的准确时间，无法暂停
 - 使用方法：
